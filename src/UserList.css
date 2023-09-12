@@ -1,0 +1,45 @@
+/* src/UserList.css */
+
+.user-list-container {
+  display: flex; /* Use flexbox to make cards stack side by side */
+  flex-wrap: wrap; /* Wrap cards to the next row if necessary */
+  justify-content: space-evenly; /* Space between cards */
+}
+
+.user-card {
+  width: 30%; /* Adjust card width as per your preference */
+  margin-bottom: 1rem;
+}
+
+.h1Center {
+  text-align: center;
+}
+
+/* Style for the card container */
+.card {
+  background-color: #000000; /* Black background */
+  color: #ffd700; /* Gold text color */
+  border: 1px solid #ffd700; /* Gold border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  padding: 20px; /* Spacing inside the card */
+  margin: 10px; /* Spacing between cards */
+  height: 300px;
+}
+
+/* Style for card title */
+.card-title {
+  font-size: 1.5rem; /* Adjust font size */
+  font-weight: bold; /* Bold text */
+}
+
+/* Style for card content */
+.card-content {
+  font-size: 1rem; /* Adjust font size */
+  margin-top: 10px; /* Spacing between title and content */
+  height: 350px;
+}
+
+.custom-card {
+  background-color: blue;
+}
